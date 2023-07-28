@@ -1,0 +1,16 @@
+Algoritmo NumeroPrimo
+    Escribir "Introduce un número: "
+    Leer num
+    primo <- Verdadero
+    Para i<-2 Hasta Raiz(num) Hacer
+        Si num mod i = 0 Entonces
+            primo <- Falso
+            Salir Para
+        FinSi
+    FinPara
+    Si primo Entonces
+        Escribir "El número es primo"
+    SiNo
+        Escribir "El número no es primo"
+    FinSi
+FinAlgoritmo
