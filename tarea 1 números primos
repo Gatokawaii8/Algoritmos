@@ -5,7 +5,6 @@ Algoritmo NumeroPrimo
     Para i<-2 Hasta Raiz(num) Hacer
         Si num mod i = 0 Entonces
             primo <- Falso
-            Salir Para
         FinSi
     FinPara
     Si primo Entonces
